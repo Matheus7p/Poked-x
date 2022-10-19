@@ -26,7 +26,7 @@ main{
 }
 
 
-.pokemom__image{
+.pokemon__image{
     position: absolute;
     bottom: 55%;
     left: 50%;
@@ -35,7 +35,7 @@ main{
 }
 
 
-.pokemom__data{
+.pokemon__data{
     position: absolute;
     font-weight: 600;
     color: #aaa;
@@ -44,7 +44,7 @@ main{
     font-size: clamp(8px, 5vw,25px);
 }
 
-.pokemom__name{
+.pokemon__name{
     color: #3a444d;
     text-transform: capitalize;
 }
