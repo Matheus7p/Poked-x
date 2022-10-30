@@ -73,6 +73,18 @@ buttonNext.addEventListener('click', () => {
 renderPokemon('1');
 
 
+ const button_prev = document.querySelector('button');
+ button_prev.addEventListener('click', function() {
+    const audio = document.querySelector('audio');
+    audio.currentTime = 0.7;
+    audio.play();
+ })
 
+ const a_next = document.querySelector('a');
+ a_next.addEventListener('click', function() {
+    const audio = document.querySelector('audio');
+    audio.currentTime = 0.7;
+    audio.play();
+ })
 
 
